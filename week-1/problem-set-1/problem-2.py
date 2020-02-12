@@ -30,7 +30,7 @@ for times in range(len(s)-2): #loops enough times so every starting index can be
     if(len(s) < 3):
         break
     
-    if(s[startindex:].find(bob) == 0):
+    # if(s[startindex:].find(bob) == 0)
         count += 1
         startindex += 1
     elif(s[startindex:].find(bob) != -1):
